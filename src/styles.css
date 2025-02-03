@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #003366;
+    --secondary-color: #FF6600;
+    --background-color: #F4F4F4;
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-body);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1, h2, h3 {
+    font-family: var(--font-heading);
+    color: var(--primary-color);
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    border: none;
+    background: var(--secondary-color);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
